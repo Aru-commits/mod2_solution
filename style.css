@@ -1,0 +1,154 @@
+body{
+	background-color:#E8E2DD;
+	font-family:'Calibri';
+  
+}
+h1{
+  margin-top: 50px;
+	
+  text-align: center;
+	}
+
+.boxes{
+  width:100%;
+}
+#box {
+	background-color:gray;
+	margin-left: auto;
+  margin-right: auto;
+	width: 250px;
+	box-sizing: border-box;
+	border: 1px solid black;
+  float: left;
+
+  
+}
+
+#box2 {
+	background-color:gray;
+	margin-left: auto;
+  margin-right: auto;
+	width: 250px;
+	box-sizing: border-box;
+	border: 1px solid black;
+  float: left;
+
+}
+
+#box3 {
+	background-color:gray;
+	margin-left: auto;
+  margin-right: auto;
+	width: 250px;
+	box-sizing: border-box;
+	border: 1px solid black;
+  float: left;
+}
+
+#Chicken {
+  position: relative;
+  float:right;
+  font-size: 20px;
+	color:black;
+	background-color: #F0B5A9 ;
+	width: 95px;
+	text-align:center;
+	border: 1px solid black;
+	}
+	
+#Beef{
+  position: relative;
+  float:right;
+  font-size: 20px;
+	color: white;
+	background-color: #CD5F49 ;
+	width: 95px;
+	text-align:center;
+	border: 1px solid black;
+	
+	}
+	
+#Sushi{
+  position: relative;
+  font-size: 20px;
+	color:black;
+	background-color: #ECD57A ;
+	width: 95px;
+	text-align:center;
+	border: 1px solid black;
+  float:right;
+	}
+	
+#content{
+  padding: 15px;
+  font-size: 18px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*<!-- Desktop only -->*/
+@media(min-width: 992px){
+    #box, #box2, #box3{
+      margin-top: 50px;
+      margin-left:10px;
+      margin-right:10px;
+      margin-bottom:15px;
+  }
+  #box {
+		width: 31.25%;
+		height: 30%;
+	}
+	#box2 {
+		width: 31.25%;
+		height: 30%;
+	}
+	#box3 {
+		width: 31.25%;
+		height: 30%;
+	}
+}
+
+/*<!-- Tablet only -->*/
+@media(min-width: 768px) and (max-width: 991px){
+  #box, #box2, #box3{
+      margin-left:10px;
+      margin-right:10px;
+      margin-bottom:15px;
+  }
+  
+  #box {
+    margin-top: 50px;
+		width: 47%;
+		height: 30%;
+	}
+	#box2 {
+    margin-top: 50px;
+		width: 47%;
+		height: 30%;
+	}
+	#box3 {
+		width: 96.88%;
+		height: 30%;
+	}
+}
+/*<!-- Mobile only -->*/
+@media(max-width: 767px){
+  #box, #box2, #box3{
+      margin-left:10px;
+      margin-right:10px;
+      margin-bottom:15px;
+  }
+  #box {
+    margin-top: 50px;
+		width: 96.88%;
+		height: 45%;
+	}
+	#box2 {
+		width: 96.88%;
+		height: 45%;
+	}
+	#box3 {
+		width: 96.88%;
+		height: 45%;
+	}
+}
